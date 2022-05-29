@@ -1,0 +1,886 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap");
+
+header {
+  width: 100%;
+  height: 43vw;
+  background-image: url("assets/star\ uó\ topo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.star {
+  width: 23.8vw;
+  position: absolute;
+  left: 19vw;
+  top: 23.5vw;
+}
+
+.kyloRen {
+  width: 70.46vw;
+  position: absolute;
+  right: 19.1vw;
+  z-index: 2;
+}
+
+.wars {
+  width: 26vw;
+  position: absolute;
+  right: 9vw;
+  top: 23.5vw;
+}
+.f-size {
+  font-size: max(9px, 1.45vw);
+}
+.divLegião {
+  width: 10vw;
+  border-bottom: solid;
+  position: absolute;
+  right: 11.6vw;
+  top: 33.4vw;
+}
+
+.p-creat-leg {
+  width: 9vw;
+  font-weight: 400;
+}
+
+.btnLegião {
+  width: 9vw;
+  display: flex;
+  position: absolute;
+  right: 12.6vw;
+  top: 38.4vw;
+}
+
+.numberOne {
+  font-size: 1.4em;
+}
+.numberFour {
+  border: hidden;
+  background-color: white;
+  font-size: 1.1em;
+}
+.btnPointers {
+  margin: 1.5px;
+  height: 20px;
+  background-color: rgb(173, 196, 210);
+  font-weight: bold;
+  border: hidden;
+  cursor: pointer;
+}
+/* -------------------------------------------------------Main CSS Starts Here-------------------------------------------------------------- */
+
+main {
+  width: 98.6vw;
+  height: 215vw;
+  position: relative;
+}
+
+.containerMainOne {
+  width: 98vw;
+  height: 80vw;
+  background-image: url("assets/sta\ uo\ robot.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.subContainerOne {
+  width: 80.5vw;
+  position: relative;
+  top: 1vw;
+  left: 12.6vw;
+  border-bottom: solid;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+.redFlag {
+  background-image: url("assets/strom\ trupe\ red.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20.7vw;
+  height: 30vw;
+  position: relative;
+  left: 0vw;
+  bottom: 6vw;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.advertisement {
+  width: 13vw;
+  font-size: 2em;
+  color: white;
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+}
+.advertisementInfo {
+  color: white;
+  position: relative;
+  top: 8vw;
+  left: 1vw;
+  opacity: 0.4;
+}
+.btnDownload {
+  width: 13vw;
+  height: 3vw;
+  text-align: center;
+  color: white;
+  border: solid white;
+  border-radius: 7%;
+  background-color: transparent;
+  position: relative;
+  top: 10vw;
+  left: 3.5vw;
+}
+.btnDownload a {
+  text-decoration: none;
+  color: white;
+}
+.update {
+  font-size: 12px;
+  color: silver;
+  font-size: 10px;
+  text-align: end;
+  color: silver;
+  position: relative;
+  top: 11.5vw;
+  right: 1.5vw;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+.about {
+  width: 36vw;
+  height: 13vw;
+  position: absolute;
+  top: 11.2vw;
+  left: 23vw;
+  text-align: end;
+}
+
+.firstHr {
+  width: 10vw;
+  height: 0.3vw;
+  background-color: black;
+  position: absolute;
+  left: 25.9vw;
+}
+
+.aboutP {
+  width: 36vw;
+  font-size: 1.17em;
+  position: relative;
+  top: 0.5vw;
+}
+
+.gameInfo {
+  width: 20.7vw;
+  position: absolute;
+  top: 11.2vw;
+  left: 60vw;
+}
+
+/* ----------------------------------------------------subContainerTWO CSS Starts Here--------------------------------------------------------- */
+
+.subContainerTwo {
+  height: 49.8vw;
+  position: relative;
+}
+
+.gameStructure {
+  width: 27vw;
+  font-size: 2.7em;
+  position: absolute;
+  bottom: 23vw;
+  right: 0vw;
+  text-align: end;
+}
+
+.menu {
+  display: flex;
+  text-align: end;
+  width: 25vw;
+  font-size: 1em;
+  list-style: none;
+  position: absolute;
+  top: 19vw;
+  left: 46vw;
+  line-height: 3vw;
+  z-index: 2;
+}
+
+.menu li:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+.sith {
+  width: 48vw;
+  height: 50vw;
+  position: absolute;
+  top: 2vw;
+  left: 14.5vw;
+  z-index: 1;
+}
+
+.rey {
+  width: 27vw;
+  position: absolute;
+  top: 3vw;
+  right: 1vw;
+  z-index: 1;
+}
+
+/* ----------------------------------------------subContainerThree CSS Starts Here---------------------------------------------------------- */
+
+.subContainerThree {
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #2d2d2d;
+  position: relative;
+}
+
+.attributes {
+  color: white;
+  position: absolute;
+  bottom: 27vw;
+  left: 16vw;
+  font-size: 2em;
+}
+
+.greenSaber {
+  width: 40vw;
+  height: 23vw;
+  position: absolute;
+  bottom: 0vw;
+  left: 9vw;
+}
+
+.imgOne {
+  width: 20vw;
+  height: 11.5vw;
+  position: absolute;
+  bottom: 11.5vw;
+  left: 49.1vw;
+}
+.imgTwo {
+  width: 20vw;
+  height: 11.5vw;
+  position: absolute;
+  bottom: 0vw;
+  left: 49.1vw;
+}
+.imgThree {
+  width: 20vw;
+  height: 11.5vw;
+  position: absolute;
+  bottom: 11.5vw;
+  right: 8.7vw;
+}
+.imgFour {
+  width: 20vw;
+  height: 11.5vw;
+  position: absolute;
+  bottom: 0vw;
+  right: 8.7vw;
+}
+
+/* ---------------------------------------subContainerThree Hovers CSS Start Here--------------------------------------------------- */
+
+.greenSaber:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+.imgOne:hover {
+  background-image: url("assets/Grupo\ novos\ graficos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: red;
+  transform: scale(1.1);
+}
+.imgTwo:hover {
+  background-color: yellow;
+  transform: scale(1.1);
+}
+.imgThree:hover {
+  background-color: green;
+  transform: scale(1.1);
+}
+.imgFour:hover {
+  background-color: purple;
+  transform: scale(1.1);
+}
+
+/* -----------------------------------------------------subContainerFour CSS Starts Here------------------------------------------------- */
+
+.subContainerFour {
+  width: 100%;
+  height: 70vw;
+  background-color: #2d2d2d;
+  position: relative;
+}
+.stormTroopers {
+  width: 80vw;
+  height: 40vw;
+  position: absolute;
+  top: 5vw;
+  right: 8.65vw;
+}
+.rightsOne {
+  width: 42vw;
+  color: white;
+  opacity: 0.4;
+  font-size: 0.74em;
+  position: absolute;
+  bottom: 21vw;
+  right: 8.6vw;
+  text-align: end;
+}
+.howToplay {
+  position: absolute;
+  bottom: 8vw;
+  right: 40vw;
+  color: white;
+}
+
+/* -----------------------------------------------------subContainerFive CSS Starts Here------------------------------------------------------ */
+
+.subContainerFive {
+  width: 100%;
+  height: 25.15vw;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.optTrooper {
+  width: 27.9vw;
+  height: 45vw;
+  position: absolute;
+  bottom: 0vw;
+  left: 7vw;
+}
+
+.divOptions {
+  width: 14vw;
+  height: 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4vw;
+  position: relative;
+  bottom: 2vw;
+}
+.pOpt {
+  font-size: 2em;
+  position: relative;
+  bottom: 1.5vw;
+}
+.options {
+  width: 15vw;
+  height: 5vw;
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: relative;
+  bottom: 2vw;
+}
+.options a {
+  text-decoration: none;
+  color: white;
+}
+.options:hover {
+  cursor: pointer;
+  transition: 3s;
+  box-shadow: inset 24vw 0vw red;
+}
+.hrOpt {
+  width: 5vw;
+  height: 0.4vw;
+  background-color: black;
+  position: relative;
+  bottom: 1vw;
+}
+.txtOpt {
+  width: 9vw;
+  height: 3vw;
+  font-size: 0.8em;
+  text-align: center;
+  opacity: 0.5;
+  position: relative;
+  bottom: 1vw;
+}
+
+/* ---------------------------------------------------footer CSS Starts Here------------------------------------------------------------ */
+
+footer {
+  width: 65%;
+  height: 46vw;
+  position: relative;
+  background-color: #ff5a56;
+}
+
+.app {
+  color: white;
+  position: absolute;
+  top: 5vw;
+  left: 13vw;
+  font-size: 2em;
+}
+
+.appTextOne {
+  color: white;
+  display: inline-block;
+  width: 28vw;
+  position: absolute;
+  top: 10vw;
+  left: 13vw;
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+.redirect {
+  width: 27.7vw;
+  height: 3vw;
+  position: absolute;
+  top: 20vw;
+  left: 13vw;
+  border-bottom: solid rgb(239, 63, 63);
+  border-bottom-width: 0.35vw;
+}
+.redirect img {
+  width: 13vw;
+  height: 4vw;
+  position: relative;
+  bottom: 4.5vw;
+}
+#img1 {
+  margin-right: 1vw;
+}
+
+.starWarsLogo {
+  width: 15.5vw;
+  position: absolute;
+  top: 26.5vw;
+  left: 13vw;
+}
+
+.appTextTwo {
+  color: white;
+  display: inline-block;
+  width: 30vw;
+  position: absolute;
+  bottom: 3.5vw;
+  left: 13vw;
+  font-size: 0.85em;
+  opacity: 0.6;
+}
+
+.vader {
+  width: 40vw;
+  position: absolute;
+  bottom: 2.5vw;
+  left: 53.5vw;
+}
+.copyright {
+  position: absolute;
+  bottom: 2vw;
+  left: 70vw;
+  font-size: 0.8em;
+}
+
+/* -------------------------------------------------------------Responsive--------------------------------------------------------------------- */
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    width: 98.6vw;
+    height: 659vw;
+    position: relative;
+  }
+}
+
+/* ----------------------------------------------------------Header Responsive Starts Here---------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .btnLegião {
+    font-size: 15px;
+  }
+}
+/* -------------------------------------------------------Main Responsive Starts Here--------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .containerMainOne {
+    width: 100%;
+    height: 130vw;
+    position: relative;
+  }
+  .subContainerOne {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 88%;
+    height: 179vw;
+    font-size: 0.5em;
+  }
+  .redFlag {
+    width: 67vw;
+    height: 77vw;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 14vw;
+    left: 12vw;
+  }
+  .advertisement {
+    width: 40vw;
+    height: 15vw;
+    font-size: 4.5em;
+    top: 13vw;
+    left: 15vw;
+  }
+  .advertisementInfo {
+    width: 42vw;
+    height: 10vw;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    top: 24vw;
+    left: 14vw;
+  }
+  .btnDownload {
+    width: 30vw;
+    height: 7vw;
+    top: 34vw;
+    left: 20vw;
+  }
+  .update {
+    top: 39vw;
+    right: 24vw;
+  }
+
+  .about {
+    width: 36vw;
+    position: absolute;
+    top: 120vw;
+    left: 23vw;
+    text-align: end;
+  }
+  .firstHr {
+    width: 36vw;
+    height: 0.3vw;
+    background-color: black;
+    position: absolute;
+    top: 28vw;
+    left: 20vw;
+  }
+  .aboutP {
+    width: 67vw;
+    height: 27vw;
+    font-size: 1.89em;
+    position: relative;
+    top: 30vw;
+    right: 10vw;
+    border-bottom: solid;
+  }
+  .titleAbout {
+    width: 35vw;
+    position: absolute;
+    top: 23vw;
+    left: 20vw;
+    font-size: 2.4em;
+  }
+  .gameInfo {
+    width: 67vw;
+    position: absolute;
+    top: 100vw;
+    left: 12vw;
+  }
+}
+
+/* ------------------------------------------------subContainerTwo Responsive Starts Here----------------------------------------------- */
+
+@media (max-width: 600px) {
+  .gameStructure {
+    width: 38vw;
+    font-size: 2em;
+    position: absolute;
+    line-height: 5vw;
+    bottom: 20vw;
+    left: 10vw;
+    text-align: end;
+  }
+
+  .menu {
+    display: flex;
+    text-align: end;
+    width: 56vw;
+    font-size: 0.8em;
+    list-style: none;
+    position: relative;
+    top: 24vw;
+    left: 24vw;
+    line-height: 3vw;
+  }
+
+  .menu li:hover {
+    background-color: #db7948;
+    cursor: pointer;
+    color: white;
+  }
+
+  .sith {
+    width: 43vw;
+    height: 43vw;
+    position: absolute;
+    top: 10vw;
+    left: 0vw;
+  }
+
+  .rey {
+    width: 24vw;
+    position: absolute;
+    top: 10vw;
+    right: 1vw;
+  }
+}
+
+/* ----------------------------------------------subContainerThree Responsive Starts Here-------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .subContainerThree {
+    width: 100%;
+    height: 280vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .attributes {
+    color: white;
+    position: relative;
+    top: 15vw;
+    left: 0vw;
+    font-size: 1.2em;
+  }
+
+  .greenSaber {
+    width: 80vw;
+    height: 50vw;
+    position: relative;
+    top: 16vw;
+    left: 0vw;
+  }
+
+  .imgOne {
+    width: 80vw;
+    height: 50vw;
+    position: relative;
+    top: 12vw;
+    left: 0vw;
+  }
+  .imgTwo {
+    width: 80vw;
+    height: 50vw;
+    position: relative;
+    top: 8vw;
+    left: 0vw;
+  }
+  .imgThree {
+    width: 80vw;
+    height: 50vw;
+    position: relative;
+    top: 4vw;
+    right: 0vw;
+  }
+  .imgFour {
+    width: 80vw;
+    height: 50vw;
+    position: relative;
+    bottom: 0vw;
+    right: 0vw;
+  }
+}
+
+/* ------------------------------------------------subContainerFour Responsive Starts Here----------------------------------------------- */
+
+@media (max-width: 600px) {
+  .subContainerFour {
+    width: 100%;
+  }
+  .rightsOne {
+    width: 39vw;
+    font-size: 0.4em;
+    bottom: 16.6vw;
+    right: 20vw;
+  }
+  .howToplay {
+    right: 22.5vw;
+    font-size: 0.8em;
+  }
+}
+
+/* ---------------------------------------------------subContainerFive Starts Here----------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .subContainerFive {
+    width: 100%;
+    height: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .optTrooper {
+    width: 90vw;
+    height: 100vw;
+    left: 17vw;
+  }
+  .divTrooper {
+    width: 68vw;
+    height: 80vw;
+    position: relative;
+    right: 55vw;
+  }
+
+  .divOptions {
+    width: 20vw;
+    height: 18vw;
+    position: relative;
+    top: 1vw;
+    right: 12vw;
+  }
+  .pOpt {
+    bottom: 3.5vw;
+    font-size: 1em;
+  }
+  .options {
+    width: 30vw;
+    height: 16vw;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  .options a {
+    text-decoration: none;
+    color: white;
+  }
+  .options:hover {
+    cursor: pointer;
+    transition: all 2s ease-in;
+  }
+  .hrOpt {
+    width: 5vw;
+    height: 0.4vw;
+    background-color: black;
+    top: 2vw;
+  }
+  .txtOpt {
+    width: 25vw;
+    height: 15vw;
+    font-size: 0.9em;
+    text-align: center;
+    opacity: 0.5;
+    bottom: 1vw;
+  }
+}
+
+/* -------------------------------------------------------footer Responsive Starts Here-------------------------------------------------- */
+
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+    height: 180vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .app {
+    color: white;
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+    font-size: 4.2em;
+  }
+
+  .appTextOne {
+    width: 80vw;
+    top: 22vw;
+    left: 8vw;
+    font-size: 1.2em;
+  }
+
+  .redirect {
+    width: 82.8vw;
+    height: 17vw;
+    position: absolute;
+    top: 44vw;
+    left: 8vw;
+    border-bottom: solid #d74430;
+    border-bottom-width: 0.9vw;
+  }
+  .redirect img {
+    width: 40vw;
+    height: 12vw;
+    position: relative;
+    top: 0vw;
+  }
+  #img1 {
+    margin-right: 1vw;
+  }
+
+  .starWarsLogo {
+    width: 50vw;
+    top: 70vw;
+    left: 25vw;
+  }
+
+  .appTextTwo {
+    width: 85.6vw;
+    position: absolute;
+    bottom: 60vw;
+    left: 11vw;
+    font-size: 1.2em;
+    opacity: 0.6;
+  }
+
+  .vader {
+    width: 90vw;
+    position: absolute;
+    top: 127vw;
+    left: 4vw;
+  }
+  .copyright {
+    width: 90vw;
+    height: 10vw;
+    font-size: 0.8em;
+    top: 245vw;
+    left: 4vw;
+  }
+}
